@@ -5,7 +5,7 @@ import GoogleMap from 'google-map-react';
 import TweetMarker from './TweetMarker.js';
 import controllable from 'react-controllables';
 import {K_SIZE} from './TweetMarkerStyle.js';
-const API_KEY = 'AIzaSyBD-pYp4i3hhI5VRJOQrjKeTxhbR5AUnEU';
+//const API_KEY = 'AIzaSyBD-pYp4i3hhI5VRJOQrjKeTxhbR5AUnEU';
 
 //var tweets = require('../data/sample_tweets_with_loc.json');
 
@@ -33,14 +33,14 @@ export default class TweetMap extends Component {
     console.log(tweetDat);
     return (
       <div className='map-div'>
-      <GoogleMap bootstrapURLKeys={{
-          key: 'AIzaSyBvNQkrRfqi8oAB8Dvd9UM392PCWqFO-UI',
-          language: 'en'
+      <GoogleMap
+        bootstrapURLKeys= {{
+          key: 'AIzaSyBvNQkrRfqi8oAB8Dvd9UM392PCWqFO-UI'
         }}
-       center= {this.props.center}
+        center= {this.props.center}
         zoom={this.props.zoom}
         onChildClick={this._onChildClick}
->
+      >
        {tweetDat.map(function(item, index) {
           console.log(index);
           var tweetLat;
