@@ -33,6 +33,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-   "homepage": "http://staff.washington.edu/mazmans/info343/twip343.github.io/"
+  }
 }
