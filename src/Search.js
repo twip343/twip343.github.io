@@ -16,7 +16,8 @@ import './TweetMap.css'
 import { Link } from 'react-router';
 
 
-const urlBeg = 'https://dev.virtualearth.net/REST/v1/Locations?q=';
+
+const urlBeg = '//dev.virtualearth.net/REST/v1/Locations?q=';
 const urlEnd = '&o=json&key=Amqe7a8IucLou-06ttFQ1Re67VAFp9Zx5vbeIsiDqZv8CWC5qAk9kY0tNhNZs5vW&jsonp=?'
 const gettingInfo = 'https://faculty.washington.edu/joelross/proxy/twitter/search/?q=&geocode='
 const gettingInfoEnd = ',1.5km&result_type=recent'
