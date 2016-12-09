@@ -81,7 +81,7 @@ var SearchBar = React.createClass( {
 				<div className="searchBar" id="searchBar">
 	      			<h1>SEARCH FOR A CITY</h1>
 		      			<form className="row" onSubmit={this.filter}>
-						    
+
 		      			<div className="form-group">
 						    <input type="text"
 							    name="search"
