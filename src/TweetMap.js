@@ -34,7 +34,7 @@ export default class TweetMap extends Component {
     return (
       <div className='map-div'>
       <GoogleMap bootstrapURLKeys={{
-          key: 'AIzaSyBD-pYp4i3hhI5VRJOQrjKeTxhbR5AUnEU',
+          key: 'AIzaSyBvNQkrRfqi8oAB8Dvd9UM392PCWqFO-UI',
           language: 'en'
         }}
        center= {this.props.center}
