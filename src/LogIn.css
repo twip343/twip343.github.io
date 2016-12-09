@@ -1,0 +1,81 @@
+h1{
+  font-size: 50px;
+  padding: 25px;
+}
+
+.form-group{
+  padding-bottom: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  font-weight: 200;
+  color: white;
+}
+#register{
+	width: 60%;
+	padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+	background:rgba(255,255,255,0.5);
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	border-radius: 50px;
+	padding-bottom: 5%;
+}
+
+#thing{
+  width: 60%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background:rgba(255,255,255,0.5);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  border-radius: 50px;
+  padding-bottom: 1%;
+}
+#about{
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  font-weight: 200;
+}
+
+#login{
+  width: 60%;
+	padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+	background:rgba(255,255,255,0.5);
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	border-radius: 50px;
+	padding-bottom: 5%;
+	margin-bottom: 20%;
+}
+
+
+.registerlink{
+	padding-left: 35%;
+	padding-top: 15px;
+	font-size: 15px;
+	color: white;
+}
+
+button {
+	margin-left: 42%;
+	margin-top: 2%;
+	margin-right: 42%;
+	width: 16%;
+}
+
+.btn, .btn-large{
+	background-color: grey;
+	width: 16%;
+}
+
+.btn:hover, .btn-large:hover{
+	background-color: #6699FF;
+}
+
+input {
+	border-bottom: 1px solid red;
+}
